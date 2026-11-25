@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+form {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 8px;
+}
+h2 { margin-top: 0; }
+label { display: block; margin-top: 15px; }
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input.valido { border-color: green; }
+input.invalido { border-color: red; }
+.error {
+  color: red;
+  font-size: 13px;
+  min-height: 16px;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #2d6cdf;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#mensaje {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
